@@ -8,6 +8,19 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Height="194" Width="780">
+            <TextBlock Text="Strecke" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontSize="30" Foreground="#FF70E400" />
+            <TextBlock Text="Eingabe in km" HorizontalAlignment="Stretch" FontFamily="Comic Sans MS" FontSize="15" VerticalAlignment="Top" />
+            <TextBox  TextWrapping="Wrap" Width="120" HorizontalAlignment="Left"/>
+
+            <TextBlock Text="Ausgabe in m" HorizontalAlignment="Right" FontFamily="Comic Sans MS" FontSize="15" VerticalAlignment="Top" />
+            <TextBox  TextWrapping="Wrap" Width="120" HorizontalAlignment="Right"/>
+
+            <Button Content="Berechne"/>
+            <TextBlock Text="Ohne Eingabe" Foreground="#FF525050" HorizontalAlignment="Center"/>
             
+
+        </StackPanel>
+
     </Grid>
 </views:MvxWpfView>
